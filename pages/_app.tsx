@@ -9,7 +9,7 @@ import Router from "next/router";
 import { activeRouteData } from "@utils/routes";
 
 let reactGa;
-if (IN_BROWSER && !IS_DEV) {
+if (false && IN_BROWSER && !IS_DEV) {
   reactGa = require("react-ga");
   reactGa.initialize("UA-60624235-8");
 }

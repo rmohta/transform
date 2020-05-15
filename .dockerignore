@@ -1,0 +1,7 @@
+.idea
+node_modules
+yarn-error.log
+dist
+.DS_Store
+public/static/monaco/*.worker.js.map
+.tool-versions

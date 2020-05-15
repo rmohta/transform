@@ -10,7 +10,7 @@ export default function() {
   const router = useRouter();
 
   useEffect(() => {
-    if (!IS_DEV)
+    if (IS_DEV)
       loadScript("https://codefund.io/properties/367/funder.js", {
         async: true
       });

@@ -113,21 +113,7 @@ export default function() {
           right={20}
           bottom={20}
           borderRadius={2}
-        >
-          <QRCode value={url} />
-          <Heading size={400} marginTop={10}>
-            Scan on{" "}
-            <Link
-              is="a"
-              href="https://expo.io/tools#client"
-              size={400}
-              target="_blank"
-            >
-              expo
-            </Link>{" "}
-            app.
-          </Heading>
-        </Pane>
+        ></Pane>
       )}
     </>
   );
